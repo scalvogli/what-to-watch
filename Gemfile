@@ -2,7 +2,9 @@ source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "2.7.4"
-
+gem "autoprefixer-rails", "10.2.5"
+gem "font-awesome-sass", "~> 5.15"
+gem "simple_form"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.1"
 
@@ -63,4 +65,3 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
-
